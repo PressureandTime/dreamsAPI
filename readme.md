@@ -5,7 +5,7 @@
 npm install
 ```
 
-create config.env inside config folder
+create config.env file inside config folder
 
 
 ## Run App
