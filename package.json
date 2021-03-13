@@ -1,0 +1,32 @@
+{
+  "name": "Dreams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production & node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Petar Scepanovic",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.1.3",
+    "helmet": "^3.22.0",
+    "hpp": "^0.2.3",
+    "mongoose": "^5.8.2",
+    "morgan": "^1.9.1",
+    "slugify": "^1.3.6",
+    "winston": "^3.3.3",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
