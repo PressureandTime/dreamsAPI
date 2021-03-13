@@ -5,6 +5,9 @@
 npm install
 ```
 
+create config.env inside config folder
+
+
 ## Run App
 ```
 # Run in dev mode
